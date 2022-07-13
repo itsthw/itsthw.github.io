@@ -1,0 +1,54 @@
+#home-ad-top .widget-content{
+position:relative;
+width:728px;
+max-width:100%;
+max-height:90px;
+line-height:1;
+margin:40px auto 0
+}
+#ad-wrapper {
+margin:0 auto;
+}
+#home-ad-top1 .widget-content {
+position:relative;
+max-width:100%;
+max-height:90px;
+line-height:1;
+margin:40px auto 0
+}
+#hot-wrapper, #featured-wrapper, #carousel-wrapper {
+margin:0 auto
+}
+#hot-section .widget,#hot-section .widget > .widget-title, #featured-posts-1 .widget > .widget-title{
+display:none
+}
+#hot-section .show-hot{
+display:block!important
+}
+#hot-section .show-hot .widget-content{
+position:relative;
+overflow:hidden;
+height:380px;
+margin:30px 0 0
+}
+.hot-loader{
+position:relative;
+height:100%;
+overflow:hidden;
+display:block
+}
+.hot-loader:after{
+content:'';
+position:absolute;
+top:50%;
+left:50%;
+width:26px;
+height:26px;
+margin:-16px 0 0 -16px;
+border:3px solid #eaeaea;
+border-left-color:#e51515;
+border-right-color:#e51515;
+border-radius:100%;
+animation:spinner .8s infinite linear;
+transform-origin:center
+}
