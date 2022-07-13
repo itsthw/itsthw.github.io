@@ -518,7 +518,10 @@ Score-streaks; UAV, Advanced UAV, HAWK X3, Care Package, Shield Turret, Stealth 
     </div>
   </div>	    
 		  		 
-		 <div align="center"><p><a href="https://forms.gle/mFoJQbyRKSHRNk4j7" target="_blank"><b>Click here to register</b></a></p></div>	</p>	  
+		 <div align="center"><p> <i>I agree these rules</i><input type="checkbox" id="check" onclick="enable()">
+    <br><br>
+
+ <a href="https://forms.gle/mFoJQbyRKSHRNk4j7" target="_blank"><button disabled="true" id="btn">Register Now</button></a></p></div>	</p>	  
 					
                   </div>
                 </div>
@@ -690,6 +693,20 @@ Score-streaks; UAV, Advanced UAV, HAWK X3, Care Package, Shield Turret, Stealth 
       allProductsCollection: "/collections/all",
     }
   };
+</script>
+
+<script type="text/javascript">
+    
+function enable() {
+    var check = document.getElementById("check");
+    var btn = document.getElementById("btn");
+    if (check.checked) {
+        btn.removeAttribute("disabled");
+    } else {
+        btn.disabled = "true"
+    }
+    }
+
 </script>
 
     <script src="assets/theme.js" rel="preload"></script>
