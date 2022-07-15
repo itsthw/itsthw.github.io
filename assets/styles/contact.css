@@ -1,10 +1,7 @@
 .contactinf {
   position: relative;
   width: 100%;
-
-
   overflow: hidden;
-  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -12,9 +9,7 @@
 .form {
   width: 100%;
   max-width: 600px;
-
   border-radius: 10px;
-
   z-index: 1000;
   overflow: hidden;
   display: grid;
@@ -22,19 +17,12 @@
 }
 
 .contact-form {
-
   position: relative;
 }
 
-
-
-
-
 form {
-
   z-index: 10;
   overflow: hidden;
-
   position: relative;
 }
 
@@ -160,9 +148,6 @@ textarea.input {
   margin-right: 0.7rem;
 }
 
-
-
-
 .contact-info:before {
   content: "";
   position: absolute;
@@ -174,10 +159,6 @@ textarea.input {
   right: 50px;
   opacity: 0.3;
 }
-
-
-
-
 
 @media (max-width: 850px) {
   .form {
