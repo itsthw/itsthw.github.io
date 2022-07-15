@@ -1,13 +1,6 @@
-$(document).ready(function(){
+$.ajax("howareyou.json", {
+	success: function (data) {
+		document.getElementByID("home-info").textContent = `${data.home-info}`;
 
-	$.getJSON("howareyou.json", function(data){
-		console.log(data)
-
-		$('.home-info').html(data.home-info)
-
-
-    }).fail(function(){
-    	console.log("error")
-    })
-
-})
+	}
+});
