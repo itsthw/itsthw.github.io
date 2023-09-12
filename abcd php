@@ -5,3 +5,4 @@ echo '<a href="/default.asp">Home</a> -
 <a href="/js/default.asp">JavaScript Tutorial</a> -
 <a href="default.asp">PHP Tutorial</a>';
 ?>
+hi
